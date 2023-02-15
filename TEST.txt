@@ -22,3 +22,15 @@ platform etc.
 Please demo then working code and write a maximum 3 page technical document explaining the
 solution architecture.
 Optionally make some thoughts about how to validate the results (test case ??) (Optional).
+
+
+Appendix
+List1 ( List of URLs)
+➢ https://sanctionssearch.ofac.treas.gov/
+➢ https://home.treasury.gov/
+➢ https://www.thomsonreuters.com/
+➢ https://verafin.com/solution/
+➢ https://www.swift.com/
+➢ https://anti-fraud.ec.europa.eu/index_en
+➢ https://www.kroll.com/
+➢ https://learn.seon.io/
