@@ -1,0 +1,24 @@
+Given the below list of URLs ( List 1 in Appendix), write python code ( Python strongly preferred,
+alternative is Java) to do following.
+For each URL, look for all href elements.
+Out of these hrefs, filter out first 10 which start with http (or https) and those which do not. That is
+they have format href=”http://…” or href=https://......”
+For each href which starts with http or https, find all links which are valid (which return http status
+code 200 and those which are not valid). Save as a CSV file.
+Handle those cases where a website does not respond within 20 seconds ( configurable) ( Nice to
+have, leave if you have no time).
+Make a graph which plots each entry in List1 against total number of href links, valid https/https
+links and invalid https links.
+For each valid http/ https links or sub links find the website having the highest number of each
+keyword form list2 in Appendix. Group them by main link from list 1 and then the sub links. Make a
+csv file.
+Plot a graph showing the number of keywords found in each link and their sub links. Also display the
+website link having the highest number of keywords and lowest number of keywords. Consider each
+set of related keywords on a line.
+Also plot a graph which shows the number of times two consecutive keywords from list2 appear in
+each link and sub link.
+It would be great to share if you used any packages libs, if you used any DB framework / tool /
+platform etc.
+Please demo then working code and write a maximum 3 page technical document explaining the
+solution architecture.
+Optionally make some thoughts about how to validate the results (test case ??) (Optional).
